@@ -1,0 +1,24 @@
+{{ $data := .Site.Data }}
+<form id="new-appointment" method="post" action="{{.Site.Params.APIURL}}/appointment">
+  <label for="staffmember">Staff member</label>
+  <select id="staffmember" name="staffmember">
+    {{ range .Site.Data.staff.list }}
+    
+    <option value="{{ .id }}">
+      {{ .name }}
+    </option>
+    {{ end }}
+  </select>
+  <br>
+
+  <label for="start_date">Date</label> 
+  <input type="date" id="start_date" name="start_date">
+  <br>
+
+  <label for="start_date">Time</label> 
+  <input type="time" id="start_time" name="start_time">
+
+  <br>
+  <br>
+  <input type="submit" value="Termin erstellen"/>
+</form>

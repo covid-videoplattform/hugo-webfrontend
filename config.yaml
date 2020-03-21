@@ -1,0 +1,31 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "COVID19 Video Platform"
+DefaultContentLanguage: "de"
+
+author: ""
+canonifyurls: true
+languagecode: "en"
+theme: "black-and-light"
+
+params:
+  sitename: "COVID19 Video Platform"
+  APIURL: "https://api.example.com"
+
+menu:
+  main:
+  - name: About
+    url: /about/
+    weight: 1
+  - name: Appointment
+    url: /new-appointment/
+    weight: 2
+  - name: Status
+    url: /status/
+    weight: 3
+  - name: Privacy
+    url: /privacy/
+    weight: 4
+  - name: Imprint
+    url: /imprint/
+    weight: 5

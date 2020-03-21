@@ -1,0 +1,17 @@
+list:
+  - id : 0
+    staffmember : 0
+    room : 0
+    datetime : 2020-03-20T17:00:00+1:00
+  - id : 2
+    staffmember : 0
+    room : 0
+    datetime : 2020-03-20T18:00:00+1:00
+  - id : 3
+    staffmember : 0
+    room : 0
+    datetime : 2020-03-20T19:00:00+1:00
+  - id : 4
+    staffmember : 0
+    room : 0
+    datetime : 2020-03-20T20:00:00+1:00

@@ -1,0 +1,20 @@
+<table class="zebra">
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>staff member</th>
+    <th>room</th>
+    <th>start</th>
+  </tr>
+</thead>
+<tbody>
+    {{ range .Site.Data.appointments.list }}
+    <tr>
+      <td>{{ .id }}</td>
+      <td>{{ .staffmember }}</td>
+      <td>{{ .room }}</td>
+      <td>{{ .datetime }}</td>
+    </tr>
+    {{ end }}
+    </tbody>
+</table>
