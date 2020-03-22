@@ -1,17 +1,30 @@
+lastUpdate: 2020-03-21T17:00:00+01:00
 list:
   - id : 0
     staffmember : 0
-    room : 0
-    datetime : 2020-03-20T17:00:00+1:00
+    datetime : 2020-03-23T17:00:00+01:00
+    title: Patient 1
+    description: "test description"
+    pdflink: ""  
+    roomlink: "https://raum.covid-videoplattform.de/bedenk-lachs-oregon-kniff-imbiss"
   - id : 2
     staffmember : 0
-    room : 0
-    datetime : 2020-03-20T18:00:00+1:00
+    datetime : 2020-03-23T18:00:00+01:00
+    title: Patient 2
+    description: "test description"
+    pdflink: ""      
+    roomlink: "https://raum.covid-videoplattform.de/landen-fleht-flehen-senf-e"
   - id : 3
     staffmember : 0
-    room : 0
-    datetime : 2020-03-20T19:00:00+1:00
+    datetime : 2020-03-23T19:00:00+01:00
+    title: Patient 3
+    description: "test description"
+    pdflink: ""      
+    roomlink: "https://raum.covid-videoplattform.de/gmbh-unfug-tausch-kinn-binder"
   - id : 4
     staffmember : 0
-    room : 0
-    datetime : 2020-03-20T20:00:00+1:00
+    datetime : 2020-03-23T20:00:00+01:00
+    title: Patient 4
+    description: "test description"
+    pdflink: ""      
+    roomlink: "https://raum.covid-videoplattform.de/anlaut-gesenk-doest-ruder-muster"

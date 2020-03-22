@@ -1,18 +1,24 @@
 list :
   - id : 0
     name : Dr. A.
+    appointments_count: 3
 
   - id : 1
     name : Dr. B.
+    appointments_count: 7
 
   - id : 3
     name : Dr. C.
+    appointments_count: 1
     
   - id : 4    
     name : Dr. D.
+    appointments_count: 0
    
   - id : 5    
     name : Dr. E.
+    appointments_count: 33
     
   - id : 6    
     name : Dr. F.
+    appointments_count: 12

@@ -3,8 +3,10 @@
   <tr>
     <th>ID</th>
     <th>staff member</th>
-    <th>room</th>
+    <th>title</th>
     <th>start</th>
+    <th>description</th>
+    <th colspan="2">actions</th>
   </tr>
 </thead>
 <tbody>
@@ -12,9 +14,16 @@
     <tr>
       <td>{{ .id }}</td>
       <td>{{ .staffmember }}</td>
-      <td>{{ .room }}</td>
-      <td>{{ .datetime }}</td>
+      <td>{{ .title }}</td>
+      <td>{{ dateFormat "02 Jan 06 15:04 MST" .datetime }}</td>
+      <td>{{ .description }}</td>
+      <td><a href="{{ .pdflink }}">print</a></td>
+      <td><a href="{{ .roomlink }}" class="button primary">join room</a></td>
+      <td><a href="{{.Site.Params.APIURL}}/appointment/{{ .id }}/delete" class="button secondary">delete</a></td>
     </tr>
     {{ end }}
     </tbody>
+    <tfoot>
+    	<tr><td colspan="5">last update: {{ dateFormat "02 Jan 06 15:04 MST" .Site.Data.appointments.lastUpdate }}</td></tr>
+    </tfoot>
 </table>
