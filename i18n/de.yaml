@@ -1,0 +1,20 @@
+- id: staffmember
+  translation: "Mitarbeiter:in"
+- id: title
+  translation: Betreff
+- id: date
+  translation: Datum
+- id: time
+  translation: Uhrzeit
+- id: description
+  translation: Beschreibung
+- id: start
+  translation: Beginn
+- id: actions
+  translation: Aktionen
+- id: print
+  translation: Drucken
+- id: delete
+  translation: Löschen
+- id: join
+  translation: Raum beitreten

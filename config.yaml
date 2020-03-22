@@ -36,7 +36,7 @@ languages:
         weight: 5
       - name: Imprint
         url: /imprint/
-        weight: 6
+        weight: 6   
   de:
     languageName: "[DE]"
     menu:

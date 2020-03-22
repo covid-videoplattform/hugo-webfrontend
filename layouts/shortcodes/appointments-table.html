@@ -2,11 +2,11 @@
 <thead>
   <tr>
     <th>ID</th>
-    <th>staff member</th>
-    <th>title</th>
-    <th>start</th>
-    <th>description</th>
-    <th colspan="2">actions</th>
+    <th>{{ i18n "staffmember" }}</th>
+    <th>{{ i18n "title" }}</th>
+    <th>{{ i18n "start" }}</th>
+    <th>{{ i18n "description" }}</th>
+    <th colspan="2">{{ i18n "actions" }}</th>
   </tr>
 </thead>
 <tbody>
@@ -17,9 +17,9 @@
       <td>{{ .title }}</td>
       <td>{{ dateFormat "02 Jan 06 15:04 MST" .datetime }}</td>
       <td>{{ .description }}</td>
-      <td><a href="{{ .pdflink }}">print</a></td>
-      <td><a href="{{ .roomlink }}" class="button primary">join room</a></td>
-      <td><a href="{{.Site.Params.APIURL}}/appointment/{{ .id }}/delete" class="button secondary">delete</a></td>
+      <td><a href="{{ .pdflink }}" class="button primary">{{ i18n "print" }}</a></td>
+      <td><a href="{{ .roomlink }}" class="button secondary">{{ i18n "join" }}</a></td>
+      <td><a href="{{.Site.Params.APIURL}}/appointment/{{ .id }}/delete" class="button red">{{ i18n "delete" }}</a></td>
     </tr>
     {{ end }}
     </tbody>

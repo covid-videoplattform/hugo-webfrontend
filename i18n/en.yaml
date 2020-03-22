@@ -1,0 +1,20 @@
+- id: staffmember
+  translation: staff member
+- id: title
+  translation: title
+- id: date
+  translation: date
+- id: time
+  translation: time
+- id: description
+  translation: description
+- id: start
+  translation: start
+- id: actions
+  translation: actions
+- id: print
+  translation: print
+- id: delete
+  translation: delete
+- id: join
+  translation: join room
